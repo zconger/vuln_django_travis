@@ -6,10 +6,10 @@ services:
     environment:
       - API_KEY=${HAWK_API_KEY}
       - APP_ID=830780ac-07be-4995-89d4-0645f1f0e95a
-      - APP_ENV=delegated
+      - APP_ENV=consistent
       - HOST=http://vuln-proxy:8020
     volumes:
-      - .:/hawk:delegated
+      - .:/hawk:consistent
 
   vuln-proxy:
     logging:
