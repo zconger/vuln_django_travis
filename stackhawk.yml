@@ -32,7 +32,7 @@ app:
       scanPassword: adminpassword
 hawk:
   spider:
-    base: false
+    base: true
   config:
     - "spider.processform=true"
     - "spider.postform=false"
