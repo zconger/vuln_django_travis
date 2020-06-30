@@ -9,7 +9,7 @@ services:
       - APP_ENV=Travis CI
       - HOST=http://vuln-proxy:8020
     volumes:
-      - .:/hawk
+      - .:/hawk:consistent
 
   vuln-proxy:
     logging:

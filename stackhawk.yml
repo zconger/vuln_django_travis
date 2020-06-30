@@ -33,3 +33,7 @@ app:
 hawk:
   spider:
     base: false
+  config:
+    - "spider.processform=true"
+    - "spider.postform=false"
+    - "spider.handleParameters=IGNORE_VALUE"
