@@ -1,5 +1,5 @@
 app:
-  applicationId: ${APP_ID:a629eeae-4bb9-4918-b3eb-bb141b4e8918}
+  applicationId: ${APP_ID:830780ac-07be-4995-89d4-0645f1f0e95a}
   env: ${APP_ENV:Development}
   host: ${HOST:http://localhost:8020} # (required)
   # The risk level of the app
