@@ -20,7 +20,7 @@ hawkscan:
         --env DAST_ARTIFACT=1 \
         --env API_KEY="hawk.${HAWK_API_ID}.${HAWK_API_SECRET}" \
         --env NO_COLOR=true \
-        stackhawk/hawkscan:beta $HAWKSCAN_ARGS
+        stackhawk/hawkscan:latest $HAWKSCAN_ARGS
   artifacts:
     reports:
       dast: stackhawk-dast-report.json
