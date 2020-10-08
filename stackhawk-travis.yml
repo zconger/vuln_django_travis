@@ -1,4 +1,3 @@
 hawk:
   spider:
-    base: true
-    maxDurationMinutes: 1
+    base: false
