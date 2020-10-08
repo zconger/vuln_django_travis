@@ -1,5 +1,5 @@
 app:
-  applicationId: ${APP_ID:830780ac-07be-4995-89d4-0645f1f0e95a}
+  applicationId: ${APP_ID:c475afb5-4da0-4116-ab33-8e638446f5cf}
   env: ${APP_ENV:Development}
   host: ${HOST:http://localhost:8020} # (required)
   riskLevel: MEDIUM # (optional)
@@ -20,7 +20,6 @@ app:
         - "token"
         - "csrftoken"
     usernamePassword:
-
       type: FORM # (optional)
       loginPath: /admin/login/ # (required)
       logoutPath: /admin/logout/ # (required)
@@ -33,3 +32,4 @@ app:
       scanPassword: adminpassword # (required)
 hawk:
   spider:
+    base: true
