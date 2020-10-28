@@ -39,7 +39,7 @@ docker-compose build
 ```
 
 ### Microservice vuln_django
-The `docker-micro-pg` Docker Compose configuration builds a microservice version of vuln_django, with separate containers running an Nginx front-end, and PostgreSQL database. 
+The `docker-micro-pg` Docker Compose configuration builds a microservice version of vuln_django, with separate containers running an Nginx front-end, and PostgreSQL database.
 
 Build, run, and run data migrations:
 ```shell script
@@ -71,3 +71,5 @@ To do that plus run HawkScan against it, run:
 - Browse to the polls with http://localhost:8020/polls/
 - Administrator login http://localhost:8020/admin/
     * admin:adminpassword
+
+-
