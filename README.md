@@ -72,4 +72,3 @@ To do that plus run HawkScan against it, run:
 - Administrator login http://localhost:8020/admin/
     * admin:adminpassword
 
--
