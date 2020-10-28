@@ -30,6 +30,7 @@ services:
       - SQL_USER=django_user
       - SQL_PASSWORD=django_password
 
+
   db:
     image: postgres
     restart: always
