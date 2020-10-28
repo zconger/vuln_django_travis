@@ -1,7 +1,7 @@
 app:
-  applicationId: ${APP_ID:eaa1d253-eeb1-48e9-8dac-ba627ab4d7b9}
+  applicationId: ${APP_ID}
   env: ${APP_ENV:Development}
-  host: ${HOST:http://localhost:8020} # (required)
+  host: ${HOST} # (required)
   riskLevel: MEDIUM # (optional)
   appDataType: PII # (optional)
   antiCsrfParam: csrfmiddlewaretoken # (optional)
@@ -30,6 +30,3 @@ app:
           val: "/admin/"
       scanUsername: admin # (required)
       scanPassword: adminpassword # (required)
-hawk:
-  spider:
-    base: true

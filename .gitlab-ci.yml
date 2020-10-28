@@ -1,4 +1,0 @@
-include:
-  - local: gitlab-ci.BASE.yml
-  - local: gitlab-ci.LOCAL.yml
-  #- local: gitlab-ci.REMOTE.yml

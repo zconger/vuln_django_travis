@@ -1,5 +1,3 @@
-# Builds the vuln_django "micro" stage. Adds an Nginx proxy, and a postgres DB.
-# You will need to run migrations manually. See README.
 version: "3.7"
 
 services:
