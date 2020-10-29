@@ -71,4 +71,3 @@ To do that plus run HawkScan against it, run:
 - Browse to the polls with http://localhost:8020/polls/
 - Administrator login http://localhost:8020/admin/
     * admin:adminpassword
-
