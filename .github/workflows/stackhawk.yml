@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - master
-  workflow_dispatch:
+#  workflow_dispatch:
 jobs:
   hawkscan:
     name: HawkScan
@@ -21,6 +21,9 @@ jobs:
         uses: stackhawk/hawkscan-action@v1.3.1
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
-          environmentVariables: APP_ENV
+          environmentVariables: APP_ENV APP_ID HOST APP_HOST
         env:
           APP_ENV: GitHub
+          APP_ID: d023acb5-c8d4-426d-a572-148bfea653b4
+          HOST: 'http://localhost:8020'
+          APP_HOST: 'http://localhost:8020'
